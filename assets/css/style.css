@@ -1,8 +1,12 @@
 .card-panel {
-	padding: 20px;
+	padding: 50px;
 	margin-top: 35px;
 }
 
 .portfolio-div {
 	
+}
+
+.connect-img {
+	max-height: 75px;
 }
