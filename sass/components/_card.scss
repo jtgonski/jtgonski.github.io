@@ -1,0 +1,46 @@
+.card {
+    color: $color-primary-dark; 
+    position: relative;
+    height: 32rem ;
+    perspective: 145rem; 
+    -moz-perspective: 150rem; //so it will work in mozilla, beacuse new feature
+    border-radius: $border-radius-1; 
+    // transform: skewY(7deg);
+
+    &__img {
+        margin-bottom: 2rem; 
+        border-radius: $border-radius-1; 
+    }
+
+    &__side {
+        height: 32rem;
+        transition: all .8s ease; 
+        position: absolute;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        -webkit-backface-visibility: hidden; 
+        backface-visibility: hidden;
+        border-radius: 3px; 
+        overflow: hidden;
+        box-shadow: $shadow-black; 
+
+        &--front {
+            background-color: $color-white; 
+        }
+
+        &--back{
+            transform: rotateY(180deg);
+            background-color: $color-white; 
+            padding: 5rem; 
+        }
+    }
+
+    &:hover &__side--front {
+        transform: rotateY(-180deg); 
+    }
+
+    &:hover &__side--back {
+        transform: rotateY(0); 
+    }
+}

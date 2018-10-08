@@ -1,92 +1,172 @@
 <html lang="en-us">
     <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        
-      <title>About | Julianne Gonski</title>
-      <!--Import Google Icon Font-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Julianne Gonski | Front End Design and Development</title>
+      <!-- Import Google Icon Font -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-        <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+      <!-- Import Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> -->
+      <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,800" rel="stylesheet">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-            
-
+         
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/icon-font.css">
+  
       </head>
       <body>
 
-
-            <nav class="pink accent-3">
-              <div class="nav-wrapper" role="navigation">
-                <div class="container">
-                    <a href="#" class="brand-logo">Julianne Gonski</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                      <li><a href="index.html">About</a></li>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-              </div>
+        <div class="navigation">
+            <nav class="navigation__nav">
+              <a href="#" class="navigation__logo">Julianne Gonski</a>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#development" class="navigation__link">Development</a></li>
+                    <li class="navigation__item"><a href="#graphic-design" class="navigation__link">Graphic Design</a></li>
+                    <li class="navigation__item"><a href="#contact" class="navigation__link">Get in Touch</a></li>
+                </ul>
             </nav>
+        </div>
+
+        <main>
+          <section class="section-about" id="about">
             <div class="row">
-              <div class="container">
-                <div class="row">
-                  <div class="card-panel grey lighten-5 z-depth-1 col s12">
-                    <div>
-                      <div class="row">
-                        <div class="col s12 m4 l4"></div>
-                        <div class="col s12 m8 l8">
-                          <h3>About Me</h3>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="valign-wrapper col s12 m4 l4">
-                            <img class="responsive-img" src="assets/images/julianneportrait01.jpg" alt="julianne gonski">
-                        </div>
-                        <div class="col s12 m8 l8">
-                          <span>
-                            I’m passionate about always learning and reaching for new skills. I am always excited about learning another new technology and seeing how that can build upon past knowledge.
-                          </span>
-                          <p>
-                            I love it when my ability to contribute responsive webpages contributes to my real-world interests, which include health and fitness, environmental impact, nutrition and whole eating, cycling, hiking, classical music, public transportation, and civic engagement, among others. Regardless of the topic, seeing how my work has a positive impact on my community or in the world is my number one motivating factor.
-                          </p>
+              <div class="panel">
+                <figure class="panel__shape">
+                  <img src="assets/images/julianneportrait01.jpg" alt="Julianne Gonski" class="panel__img">
+                </figure>
+                <div class="panel__text">
+                    <h2 class="heading-secondary u-margin-bottom-small">About Me</h2>
+                    <p>
+                      Hello there. My name is Julianne and I'm a web developer and visual artist. 
+                    </p>
+                    <p>
+                      I’m passionate about always learning and reaching for new skills. I am always excited about learning
+                      another new technology and seeing how that can build upon past knowledge.
+                    </p>
+                    <p>
+                      I love it when my ability to contribute responsive webpages contributes to my real-world interests, 
+                      which include health and fitness, environmental impact, nutrition and whole eating, cycling, hiking, classical music, public transportation, and civic engagement, among others. Regardless of the topic, seeing how my work has a positive impact on my community or in the world is my number one motivating factor.
+                    </p>
 
-                          <p>
-                            With a background in art and design I have a keen eye for details of front-end development of HTML and CSS. However, I enjoy the logic and puzzle like quality of working with Node.js and Express.js, MongoDB and MySQL. 
-                          </p>
+                    <p>
+                      With a background in art and design I have a keen eye for details of front-end development of HTML 
+                      and CSS. However, I enjoy the logic and puzzle like quality of working with Node.js and Express.js, MongoDB and MySQL. 
+                    </p>
 
-                          <p>
-                            With extensive travel experience, including living abroad, and proficiency in Spanish, I am sensitive to multicultural perspectives and experiences.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="card-panel grey lighten-5 z-depth-1 col s12">
-                    <div class="row">
-                      <div class="col s12">
-                        <h5 class="center-align">Connect with me</h5>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="center-align">
-                        <a href="https://github.com/jtgonski" target="_blank"><img src="assets/images/github.png" class="responsive-img connect-img" alt="github" /></a>
-                    
-                        <a href="https://www.linkedin.com/in/julianne-gonski-6859ab12" target="_blank" /><img src="assets/images/linkedin.png" class="responsive-img connect-img" alt="linkedin" /></a>
-                    
-                        <a href="https://stackoverflow.com/users/8157392/jtgonski?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" class="responsive-img connect-img" alt="stackoverflow" /></a>
-                      </div>
-                    </div>
-                  </div>
+                    <p>
+                      With extensive travel experience, including living abroad, and proficiency in Spanish, I 
+                      am sensitive to multicultural perspectives and experiences.
+                    </p>
                 </div>
               </div>
             </div>
+            <div class="icon icon__arrow-down">
+                <ion-icon name="arrow-down"></ion-icon>
+            </div>
+          </section>
 
-      </body>
+          <section class="section-development" id="development">
+            <div class="row">
+                <h2 class="heading-secondary u-margin-bottom-medium">Web Development</h2>
+                
+                <div class="row">
+                  <!-- trivia game -->
+                    <div class="col-1-of-2">
+                      <div class="card">
+                        <div class="card__side card__side--front">
+                              <img class="card__img" src="assets/images/trivia-game.png" alt="Trivia Game">
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Trivia Game</h3>
+                            <p>
+                              A simple app to test your knowlege of the TV Show "Parks and Rec". Don't take too long on each question, 
+                              there's a time limit!
+                            </p>
+                            <a href="https://jtgonski.github.io/TriviaGame/" target="_blank" class="btn btn--secondary">See it!</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- GIPHY BUTTONS -->
+                    <div class="col-1-of-2">
+                      <div class="card">
+                          <div class="card__side card__side--front">
+                              <img class="card__img" src="assets/images/giphy-buttons.png" alt="giphy buttons">
+                          </div>
+                          <div class="card__side card__side--back">
+                              <h3 class="heading-tertiary u-margin-bottom-small">Giphy Buttons</h3>
+                              <p>
+                                  This app pulls the top 10 giphy's for any keyword you click on. 
+                                  You can add your own keywords, too!
+                              </p>
+                              <a href="https://jtgonski.github.io/giphy-buttons/" target="_blank" class="btn btn--secondary">See it!</a>
+                          </div>
+                       </div>
+                    </div>
+                <!-- end row -->
+                </div>
+
+                <div class="row">
+                  <!-- TRAIN SCHEDULER -->
+                    <div class="col-1-of-2">
+                      <div class="card">
+                          <div class="card__side card__side--front">
+                              <img class="card__img" src="assets/images/train-scheduler.png" alt="Train Sheduler">
+                          </div>
+                          <div class="card__side card__side--back">
+                              <h3 class="heading-tertiary u-margin-bottom-small">Train Scheduler</h3>
+                              <p>
+                                  This app saves train information that you add to it in a database. 
+                              </p>
+                              <a href="https://jtgonski.github.io/train-schedule/" target="_blank" class="btn btn--secondary">See it!</a>
+                          </div>
+                      </div>
+                    </div>
+                 
+                    <!-- EVENTS HERE NOW -->
+                    <div class="col-1-of-2">
+                      <div class="card">
+                          <div class="card__side card__side--front">
+                              <img class="card__img" src="assets/images/EventsHereNow.png" alt="Events Here Now">
+                          </div>
+                          <div class="card__side card__side--back">
+                              <h3 class="heading-tertiary u-margin-bottom-small">EventsHereNow</h3>
+                              <p>
+                                  This app allows you to login and uses your location to aggregate 
+                                  events happening that day in your area. It also allows you to search in 
+                                  different geographic locations if so desired, and saves your recent searches. 
+                                </p>
+                              <a href="https://julianbridges4.github.io/Events-Here-Now/" target="_blank" class="btn btn--secondary">See it!</a>
+                          </div>
+                      </div>
+                    </div>
+
+                <!-- END ROW -->
+                </div>
+      
+              <!-- END PORTFOLIO ROW -->
+            </div>
+          </section>
+
+          <section class="section-graphic-design" id="graphic-design">
+            <div class="row">
+              <div class="gallery">
+                <h2 class="heading-secondary">Graphic Design Portfolio | Coming Soon</h2>
+                
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer" id="contact">
+            <div class="icon">
+                <a href="https://github.com/jtgonski" target="_blank" class="btn-white"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/julianne-gonski-6859ab12" target="_blank" class="btn-white"><ion-icon name="logo-linkedin"></ion-icon></a>
+               <a href="mailto:jtgonski@gmail.com" target="_blank" class="btn-white"><ion-icon name="mail"></ion-icon></a>
+            </div>
+        </footer>
+      <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+     </body>
 </html>

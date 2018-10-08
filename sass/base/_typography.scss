@@ -1,0 +1,17 @@
+body {
+    font-family: "Muli", sans-serif;
+    font-weight: 400; 
+    font-size: $default-font-size;
+    line-height: 1.7; 
+    color: $color-grey;
+}
+
+.heading-secondary {
+    font-family: "Charmonman", cursive; 
+    font-size: 4rem;
+}
+
+.heading-tertiary {
+    text-transform: uppercase; 
+    font-weight: 600; 
+}
