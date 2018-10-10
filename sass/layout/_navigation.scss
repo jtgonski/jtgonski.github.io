@@ -7,11 +7,12 @@
     height: 10vh; 
     z-index: 1000;
 
+
     &__logo {
         text-decoration: none;
         color: $color-white;
         float: left;
-        padding: 1rem;
+        // padding: 1rem;
         padding-left: 10rem; 
         text-transform: uppercase;
     }
@@ -24,16 +25,21 @@
 
     &__item {
         float: left; 
+        transition: all .3s;
+        &:hover {
+            transform: scale(1.15);
+        }
     }
 
     &__link {
-
         &:link,
         &:visited {
             color: $color-white; 
             text-decoration: none;
             padding: 1rem 2rem;
             text-transform: uppercase;
+            transition: all .2s;
         }
+
     }
 }

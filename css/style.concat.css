@@ -486,6 +486,7 @@ body {
 
 .heading-secondary {
   font-family: "Charmonman", cursive;
+  color: #fff;
   font-size: 4rem; }
 
 .heading-tertiary {
@@ -532,7 +533,7 @@ body {
 
 .btn-white:link, .btn-white:visited {
   color: #fff;
-  padding: 3.5rem;
+  padding: 0 3.5rem;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -663,7 +664,6 @@ body {
     text-decoration: none;
     color: #fff;
     float: left;
-    padding: 1rem;
     padding-left: 10rem;
     text-transform: uppercase; }
   .navigation__list {
@@ -671,12 +671,16 @@ body {
     list-style: none;
     text-decoration: none; }
   .navigation__item {
-    float: left; }
+    float: left;
+    transition: all .3s; }
+    .navigation__item:hover {
+      transform: scale(1.15); }
   .navigation__link:link, .navigation__link:visited {
     color: #fff;
     text-decoration: none;
     padding: 1rem 2rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition: all .2s; }
 
 .section-about {
   background-color: #3C57A1;
@@ -685,7 +689,6 @@ body {
 
 .section-development {
   background-color: #8ABADD;
-  color: #fff;
   padding: 30rem 0;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
