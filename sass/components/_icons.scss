@@ -3,8 +3,23 @@
     text-align: center;
     font-size: 5rem; 
 
+    &:link,
+    &:visited {
+        color: $color-white; 
+        padding: 0 3.5rem;
+        text-decoration: none; 
+        display: inline-block;
+        cursor: pointer;
+        transition: all .4s;
+    }
+
     &__arrow-down{
         color: $color-white; 
+        transition: all .5s;
+     }
+
+    &:hover {
+        transform: scale(1.5);
     }
 
 }

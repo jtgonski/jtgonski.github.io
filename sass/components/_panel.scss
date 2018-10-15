@@ -1,9 +1,7 @@
 .panel {
     @include clearfix;
-    // background-color: $color-white; 
-    padding: 5rem;
-    // border-radius: $border-radius-1;
-    // box-shadow: $shadow-primary;
+    padding: 5rem 5rem 0 5rem;
+   
 
     &__shape {
         width: 30%; 

@@ -1,0 +1,40 @@
+.composition {
+    position: relative; 
+    // width: 30rem; 
+
+    &__img {
+        width: 100%; 
+        box-shadow: $shadow-black;
+        margin: 3rem;
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.3); 
+            z-index: 3000;
+        }
+
+        &--1 {
+            position: absolute;
+            top: -5rem; 
+            left: 0; 
+        }
+
+        &--2 {
+            position: absolute;
+            top: 3rem; 
+            left: 32rem;
+        }
+
+        &--3 {
+            position: absolute;
+            top: 18rem;
+            left: -5rem; 
+        }
+
+        &--4 {
+            position: absolute;
+            top: 35rem; 
+            left: 25rem; 
+        }
+    }
+}
