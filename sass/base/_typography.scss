@@ -8,8 +8,15 @@ body {
 
 .heading-secondary {
     font-family: "Charmonman", cursive; 
-    color: $color-white;
     font-size: 4rem;
+
+    &--1 {
+        color: $color-white;
+    }
+
+    &--2 {
+        color: $color-secondary-dark; 
+    }
 }
 
 .heading-tertiary {

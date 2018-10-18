@@ -5,7 +5,7 @@
 }
 
 .section-development {
-    background-color: $color-primary-light; 
+    background-color: $color-grey-light-1; 
     padding: 30rem 0;
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
@@ -14,8 +14,6 @@
 }
 
 .section-graphic-design {
-    background-color: $color-secondary-light; 
-    padding: 30rem 0;
-    margin-top: -25rem;
-    height: 250rem;
+    background-color: $color-primary; 
+    padding: 10rem 0;
 }

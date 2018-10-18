@@ -1,12 +1,22 @@
 .panel {
     @include clearfix;
     padding: 5rem 5rem 0 5rem;
-   
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
 
     &__shape {
         width: 30%; 
         float: left; 
         padding-right: 3rem; 
+
+        @include respond(tab-port) {
+            float: none; 
+            width: 100%; 
+            padding-right: 0; 
+            margin-bottom: 3rem;
+        }
     }
 
     &__img {
@@ -20,10 +30,21 @@
         color: $color-grey-light-1; 
         font-weight: 300;
 
+        @include respond(tab-port) {
+            float: none; 
+            width: 100%;
+        }
+
         p {
             margin-bottom: 2rem;
             &:last-child{
                 margin-bottom: 0;
+            }
+        }
+
+        h2 {
+            @include respond(tab-port) {
+                text-align: center;
             }
         }
     }

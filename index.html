@@ -17,7 +17,7 @@
       <body>
 
         <div class="navigation">
-            <nav class="navigation__nav">
+            <nav class="navigation__nav navigation__nav--large">
               <a href="#about" class="navigation__logo btn-white">Julianne Gonski</a>
                 <ul class="navigation__list">
                     <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
@@ -26,6 +26,21 @@
                     <li class="navigation__item"><a href="#contact" class="navigation__link">Get in Touch</a></li>
                 </ul>
             </nav>
+            <!-- Hamburger Menu- implement later (not mvp) -->
+            <!-- <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav navigation__nav--small">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Development</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Graphic Design</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Get In Touch</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Book Now</a></li>
+                </ul>
+            </nav> -->
         </div>
 
         <main>
@@ -36,7 +51,7 @@
                   <img src="assets/images/julianneportrait01.jpg" alt="Julianne Gonski" class="panel__img">
                 </figure>
                 <div class="panel__text">
-                    <h2 class="heading-secondary u-margin-bottom-small">About Me</h2>
+                    <h2 class="heading-secondary heading-secondary--1 u-margin-bottom-small">About Me</h2>
                     <p>
                       Hello there. My name is Julianne and I'm a web developer and visual artist. 
                     </p>
@@ -68,7 +83,7 @@
 
           <section class="section-development" id="development">
             <div class="row">
-                <h2 class="heading-secondary u-margin-bottom-medium">Web Development</h2>
+                <h2 class="heading-secondary heading-secondary--2 u-margin-bottom-medium">Web Development</h2>
                 
                 <div class="row">
                   <!-- trivia game -->
@@ -151,7 +166,7 @@
 
           <section class="section-graphic-design" id="graphic-design">
             <div class="row">
-                <h2 class="heading-secondary">Graphic Design Portfolio</h2>
+                <h2 class="heading-secondary heading-secondary--1 u-margin-bottom-small">Graphic Design Portfolio</h2>
             </div>
             <div class="row">
               <div class="col-1-of-3">
@@ -217,5 +232,6 @@
             </div>
         </footer>
       <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+      
      </body>
 </html>

@@ -1,12 +1,16 @@
 .composition {
-    position: relative; 
-    // width: 30rem; 
+    // position: relative; 
+
 
     &__img {
         width: 100%; 
         box-shadow: $shadow-black;
         margin: 3rem;
         transition: all .3s;
+
+        @include respond(tab-port) {
+            margin: 0;
+        }
 
         &:hover {
             transform: scale(1.3); 
